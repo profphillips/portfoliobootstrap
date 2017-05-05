@@ -1,6 +1,6 @@
 # portfoliobootstrap 
 This website displays the student portfolio of work for a fictitous Jane Doe. It makes use of the bootstrap framework. 
-The main file index.html is released to the public domain. 
+The main file index.html is released to the public domain. View at https://profphillips.github.io/portfoliobootstrap/ .
 
 Follow these steps to use this repository (assumes a Linux / Apache2 server with public_html web folders and git):
 
