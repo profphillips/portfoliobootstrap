@@ -1,51 +1,53 @@
 # portfoliobootstrap 
-This website displays the student portfolio of work for a fictitous Jane Doe. It makes use of the bootstrap framework. 
+This website displays the student portfolio of work for a fictitous Jane Doe. It makes use of the bootstrap 3 framework. 
 The main file index.html is released to the public domain. View at https://profphillips.github.io/portfoliobootstrap/ .
 
-Follow these steps to use this repository (assumes a Linux / Apache2 server with public_html web folders and git):
+First, use your browser to fork a copy of portfoliobootstrap to your own github account:
 
-1. To see your globals type: `git config --list`
+1. Use a web browser to log in to your github.com account.
 
-2. If missing email or name then give the next two commands:
+2. Use your browser to visit https://github.com/profphillips/portfoliobootstrap/ .
 
- a. `git config --global user.email "yourname@whereever.edu"` 
+3. Click on the Fork icon to copy this project to your github account and view it there.
 
- b. `git config --global user.name "First Last"` 
+Follow these steps to use your repository (assumes a Linux / Apache2 server with public_html web folders and git):
 
-3. Change into your public_html folder and type:
+4. Log in to your Linux server account 
 
- `git clone https://github.com/profphillips/portfoliobootstrap.git`
+5. To see your globals type: `git config --list`
 
-4. `cd portfoliobootstrap`
+6. If missing email or name then give the next two commands:
 
-5. Create a new empty (don't even have a readme file) repository on GitHub -- perhaps named portfolio2.
+a. `git config --global user.email "yourname@whereever.edu"` 
 
-6. `git remote -v`
+b. `git config --global user.name "First Last"` 
 
-7. Change the remote to your new repository: 
+7. Change into your public_html folder and type:
 
- `git remote set-url origin https://github.com/youraccountname/portfolio2.git` 
+a. `git clone https://github.com/youraccountname/portfoliobootstrap.git`
 
-8. Check the remote again and make sure it points to your repository: `git remote -v`
+b. `cd portfoliobootstrap`
 
-9. Make some changes to index.html and save
+8. Make some changes to index.html and save
 
-10. `git status`
+a. `git status`
 
-11. `git add .`
+b. `git add .`
 
-12. `git status`
+c. `git status`
 
-13. `git commit -am "your comment here"`
+d. `git commit -am "your comment here"`
 
-14. `git status`
+e. `git status`
 
-15. `git push -u origin master`
+f. `git push -u origin master`
 
-16. Make more changes. If no new files are added you can just type:
+9. Make more changes. If no new files are added you can just type:
 
- a. `git commit -am "new comment"`
+a. `git commit -am "new comment"`
 
- b. `git push`
+b. `git push`
 
-17. Verify your files are in your new repository on GitHub.
+10. Use your web browser to verify that your updated files are in your GitHub repository.
+
+11. Use your web browser to visit https://youraccountname.github.io/portfoliobootstrap/ to see what your website looks like; for example, my example page is at https://profphillips.github.io/portfoliobootstrap/ .
