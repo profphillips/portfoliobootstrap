@@ -18,35 +18,35 @@ Follow these steps to use your repository (assumes a Linux / Apache2 server with
 
 6. If missing email or name then give the next two commands:
 
-a. `git config --global user.email "yourname@whereever.edu"` 
+  a. `git config --global user.email "yourname@whereever.edu"` 
 
-b. `git config --global user.name "First Last"` 
+  b. `git config --global user.name "First Last"` 
 
 7. Change into your public_html folder and type:
 
-a. `git clone https://github.com/youraccountname/portfoliobootstrap.git`
+  a. `git clone https://github.com/youraccountname/portfoliobootstrap.git`
 
-b. `cd portfoliobootstrap`
+  b. `cd portfoliobootstrap`
 
 8. Make some changes to index.html and save
 
-a. `git status`
+  a. `git status`
 
-b. `git add .`
+  b. `git add .`
 
-c. `git status`
+  c. `git status`
 
-d. `git commit -am "your comment here"`
+  d. `git commit -am "your comment here"`
 
-e. `git status`
+  e. `git status`
 
-f. `git push -u origin master`
+  f. `git push -u origin master`
 
 9. Make more changes. If no new files are added you can just type:
 
-a. `git commit -am "new comment"`
+  a. `git commit -am "new comment"`
 
-b. `git push`
+  b. `git push`
 
 10. Use your web browser to verify that your updated files are in your GitHub repository.
 
